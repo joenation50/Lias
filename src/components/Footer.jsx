@@ -9,7 +9,6 @@ export default function Footer() {
       <div className="mx-auto grid max-w-6xl gap-10 px-5 py-14 sm:px-8 md:grid-cols-3">
         <div>
           <div className="flex items-center gap-3">
-            {/* Banner Logo inside a white box */}
             <div className="inline-flex rounded-xl bg-white px-4 py-2">
               <Logo size={40} variant="banner" />
             </div>
@@ -48,9 +47,10 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-white/10">
-        <p className="mx-auto max-w-6xl px-5 py-5 text-xs text-white/50 sm:px-8">
-          © 2026 Lias Freight Global Services Limited. All rights reserved.
-        </p>
+        <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-2 px-5 py-5 text-xs text-white/50 sm:flex-row sm:px-8">
+          <p>© 2026 Lias Freight Global Services Limited. All rights reserved.</p>
+          <p>RC: 8374387</p>
+        </div>
       </div>
     </footer>
   );
