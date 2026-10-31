@@ -38,7 +38,7 @@ export default function Home() {
               className="inline-flex items-center gap-2 rounded-full bg-white px-3.5 py-1.5 text-sm font-medium text-navy shadow-lift"
             >
               <span className="h-2 w-2 rounded-full bg-signal" /> 
-              Formerly Lias Freight Agencies (Est. 1981)
+              Trusted Nigerian Port Clearing & Forwarding
             </motion.p>
             <motion.h1
               initial={reduce ? false : { opacity: 0, y: 18 }}
@@ -72,42 +72,21 @@ export default function Home() {
             </motion.div>
           </div>
 
-          {/* Banner Logo Card with Heritage Text */}
+          {/* Banner Logo Card - TEXT REMOVED */}
           <motion.div
             initial={reduce ? false : { opacity: 0, scale: 0.97 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ ...spring, delay: 0.1 }}
-            className="overflow-hidden rounded-[28px] bg-white p-8 text-center shadow-lift sm:p-12"
+            className="overflow-hidden rounded-[28px] bg-white p-8 shadow-lift sm:p-12"
           >
             <Logo size={60} variant="banner" className="mx-auto" />
-            <p className="mt-6 text-sm font-medium text-muted leading-relaxed">
-              Proudly carrying forward the legacy of our founder, <strong className="text-navy">Alhaji Olushoga Elias</strong>, who cleared cargo for NNPC, Cadbury, and KRPC since 1981.
-            </p>
           </motion.div>
         </div>
       </section>
 
-      {/* NEW LEGACY SECTION */}
-      <section className="bg-white py-20">
-        <div className="mx-auto max-w-4xl px-5 text-center sm:px-8">
-          <Reveal>
-            <p className="font-mono text-xs font-medium uppercase tracking-[0.18em] text-signal-ink">Our Heritage</p>
-            <h2 className="mt-3 font-display text-3xl font-semibold leading-tight tracking-tight text-navy sm:text-4xl">
-              A 40-Year Legacy of Trust.
-            </h2>
-            <p className="mt-6 text-lg leading-relaxed text-muted">
-              We are the modern evolution of <em>Lias Freight Agencies Limited</em>, founded in 1981. Under the leadership of Alhaji Olushoga Elias, we became a leading clearing and forwarding agency in Nigeria, trusted by industry giants like NNPC, Cadbury, and KRPC. Today, we combine that deep port experience with modern global logistics.
-            </p>
-            <div className="mt-8 flex justify-center">
-              <Link to="/about" className="inline-flex items-center gap-2 rounded-full border border-hairline bg-paper px-6 py-3 font-semibold text-navy transition-colors hover:bg-navy hover:text-white">
-                Read our full story <Icon name="ArrowRight" size={18} />
-              </Link>
-            </div>
-          </Reveal>
-        </div>
-      </section>
+      {/* The "40-Year Legacy" section has been completely removed */}
 
-      <section className="mx-auto max-w-6xl px-5 pb-24 sm:px-8">
+      <section className="mx-auto max-w-6xl px-5 pb-24 sm:px-8 mt-12">
         <div className="mb-10 flex flex-wrap items-end justify-between gap-6">
           <SectionHead eyebrow="What we do" title="Four services, one movement" />
           <Link to="/services" className="inline-flex items-center gap-1.5 font-semibold text-navy hover:text-signal-ink">

@@ -13,10 +13,8 @@ export default function Footer() {
               <Logo size={40} variant="banner" />
             </div>
           </div>
-          <p className="mt-4 text-sm text-white/60">
-            Since {BIZ.established}
-          </p>
-          <p className="mt-2 max-w-xs text-sm leading-relaxed">
+          {/* Removed "Since 1981" */}
+          <p className="mt-4 max-w-xs text-sm leading-relaxed">
             Customs clearing, freight forwarding, haulage and warehousing through all Nigerian seaports and airports, with delivery to any state in Nigeria.
           </p>
         </div>
@@ -48,7 +46,8 @@ export default function Footer() {
       </div>
       <div className="border-t border-white/10">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-2 px-5 py-5 text-xs text-white/50 sm:flex-row sm:px-8">
-          <p>© 2026 Lias Freight Global Services Limited. All rights reserved.</p>
+          {/* Removed 2026 */}
+          <p>© Lias Freight Global Services Limited. All rights reserved.</p>
           <p>RC: 8374387</p>
         </div>
       </div>
