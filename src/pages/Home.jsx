@@ -72,17 +72,14 @@ export default function Home() {
             </motion.div>
           </div>
 
-          {/* Banner Logo Card */}
+          {/* Banner Logo Card - TEXT REMOVED */}
           <motion.div
             initial={reduce ? false : { opacity: 0, scale: 0.97 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ ...spring, delay: 0.1 }}
-            className="overflow-hidden rounded-[28px] bg-white p-8 text-center shadow-lift sm:p-12"
+            className="flex items-center justify-center overflow-hidden rounded-[28px] bg-white p-8 shadow-lift sm:p-12"
           >
             <Logo size={60} variant="banner" className="mx-auto" />
-            <p className="mt-6 text-sm font-medium text-muted leading-relaxed">
-              Proudly carrying forward the legacy of our founder, <strong className="text-navy">Alhaji Olushoga Elias</strong>, who cleared cargo for NNPC, Cadbury, KRPC, and many more since 1981.
-            </p>
           </motion.div>
         </div>
       </section>
