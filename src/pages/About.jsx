@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 import Icon from "../components/Icon.jsx";
 import Reveal from "../components/Reveal.jsx";
 import SectionHead from "../components/SectionHead.jsx";
-import founderImage from "../assets/founder.png"; // Father's image
-import ownerImage from "../assets/owner.png"; // Son's image (Abdulateef)
+import founderImage from "../assets/founder.png"; 
+import ownerImage from "../assets/owner.png"; 
 
 const STEPS = [
   { icon: "ChatCircleText", name: "Consult", text: "We learn what is being shipped, where it is coming from and when it must arrive." },
@@ -30,7 +30,7 @@ export default function About() {
 
       <section className="mx-auto grid max-w-6xl gap-12 px-5 pb-20 sm:px-8 lg:grid-cols-2">
         <Reveal>
-          <SectionHead eyebrow="About us" title="A modern logistics firm built on a 40-year legacy." />
+          <SectionHead eyebrow="About us" title="A modern logistics firm built on a 45-year legacy." />
         </Reveal>
         <Reveal delay={0.08} className="space-y-5 text-lg leading-relaxed text-muted">
           <p>
@@ -72,7 +72,7 @@ export default function About() {
                   In 1981, <strong className="text-navy">Alhaji Olushoga Elias</strong> founded Lias Freight Agencies Limited at Coconut Bus Stop, Apapa, Lagos. Through his dedication and deep understanding of the Nigerian ports, he built the company into one of the nation's leading clearing and forwarding agencies.
                 </p>
                 <p>
-                  Under his leadership, the company earned the trust of the country's most prestigious institutions. He successfully managed complex logistics for the <strong>Nigerian National Petroleum Corporation (NNPC), Kaduna Refining & Petrochemical Company (KRPC), Warri Refinery, Cadbury Nigeria, the Nigerian Minting and Printing Company, and the Cocoa Research Institute of Ibadan.</strong>
+                  Under his leadership over the last 45 years, the company earned the trust of the country's most prestigious institutions. He successfully managed complex logistics for the <strong>Nigerian National Petroleum Corporation (NNPC), Kaduna Refining & Petrochemical Company (KRPC), Warri Refinery, Cadbury Nigeria, the Nigerian Minting and Printing Company, and the Cocoa Research Institute of Ibadan, and many more.</strong>
                 </p>
               </div>
             </Reveal>
@@ -89,7 +89,7 @@ export default function About() {
                   Today, under the leadership of <strong className="text-navy">Abdulateef Babatunde Elias</strong>, we carry his father's vision forward. We are not just a new company; we are the continuation of a family promise to deliver excellence, integrity, and unmatched port expertise.
                 </p>
                 <p>
-                  With our new incorporation (RC 8374387), Lias Freight Global Services Limited combines our historic roots with modern global logistics, ensuring your cargo is handled with the same care and precision that defined us 40 years ago.
+                  With our new incorporation (RC 8374387), Lias Freight Global Services Limited combines our historic roots with modern global logistics, ensuring your cargo is handled with the same care and precision that defined us over the last 45 years.
                 </p>
               </div>
             </Reveal>
@@ -139,7 +139,7 @@ export default function About() {
         <Reveal className="flex flex-col items-start justify-between gap-8 rounded-3xl bg-signal p-8 sm:flex-row sm:items-center sm:p-12">
           <div>
             <h2 className="font-display text-4xl font-semibold leading-tight tracking-tight text-navy">Experience the Lias difference.</h2>
-            <p className="mt-2 max-w-lg text-navy/80">Let our family's 40-year legacy work for your business today.</p>
+            <p className="mt-2 max-w-lg text-navy/80">Let our family's 45-year legacy work for your business today.</p>
           </div>
           <Link to="/contact" className="inline-flex shrink-0 items-center gap-2 rounded-full bg-navy px-7 py-4 font-semibold text-white transition-transform active:scale-[0.97]">
             Contact us <Icon name="ArrowRight" size={18} />

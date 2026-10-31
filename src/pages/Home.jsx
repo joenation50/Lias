@@ -38,7 +38,7 @@ export default function Home() {
               className="inline-flex items-center gap-2 rounded-full bg-white px-3.5 py-1.5 text-sm font-medium text-navy shadow-lift"
             >
               <span className="h-2 w-2 rounded-full bg-signal" /> 
-              Trusted Nigerian Port Clearing & Forwarding
+              A 45-Year Legacy of Trust (Est. 1981)
             </motion.p>
             <motion.h1
               initial={reduce ? false : { opacity: 0, y: 18 }}
@@ -72,19 +72,20 @@ export default function Home() {
             </motion.div>
           </div>
 
-          {/* Banner Logo Card - TEXT REMOVED */}
+          {/* Banner Logo Card */}
           <motion.div
             initial={reduce ? false : { opacity: 0, scale: 0.97 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ ...spring, delay: 0.1 }}
-            className="overflow-hidden rounded-[28px] bg-white p-8 shadow-lift sm:p-12"
+            className="overflow-hidden rounded-[28px] bg-white p-8 text-center shadow-lift sm:p-12"
           >
             <Logo size={60} variant="banner" className="mx-auto" />
+            <p className="mt-6 text-sm font-medium text-muted leading-relaxed">
+              Proudly carrying forward the legacy of our founder, <strong className="text-navy">Alhaji Olushoga Elias</strong>, who cleared cargo for NNPC, Cadbury, KRPC, and many more since 1981.
+            </p>
           </motion.div>
         </div>
       </section>
-
-      {/* The "40-Year Legacy" section has been completely removed */}
 
       <section className="mx-auto max-w-6xl px-5 pb-24 sm:px-8 mt-12">
         <div className="mb-10 flex flex-wrap items-end justify-between gap-6">
